@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "declaration": false,
+        "emitDecoratorMetadata": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "importHelpers": true,
+        "jsx": "react-jsx",
+        "lib": ["dom", "es2022"],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "./dist",
+        "paths": {
+            "*": ["./src/*", "./*"]
+        },
+        "removeComments": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strict": true,
+        "strictPropertyInitialization": false,
+        "target": "es2022",
+        "types": ["node"]
+    },
+    "ts-node": {
+        "compilerOptions": { "module": "commonjs" }
+    },
+    "include": ["."],
+    "exclude": ["node_modules"]
+}
